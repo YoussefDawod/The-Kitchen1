@@ -18,6 +18,27 @@ header {
   gap: 1em;
   padding: 1em;
 }
+nav{
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  
+  gap: .05em;
+}
+.logo-nav {
+  width: 600px;
+}
+.a-nav {
+  margin: 1em;
+}
+.a-nav:hover {
+  background-color: #ff58585e;
+  border-radius: 5px;
+}
 h1,
 .p-header {
   font-size: 200%;

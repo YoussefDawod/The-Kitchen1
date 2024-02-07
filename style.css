@@ -72,7 +72,7 @@ a {
 }
 #menu {
   background: linear-gradient(to right bottom, #ff000033, #ff7777),
-    url(images/menu-hintergrund.png) no-repeat center center/cover;
+    url(Images/menu-hintergrund.png) no-repeat center center/cover;
 }
 #drinks {
   background: linear-gradient(to right bottom, #003cff63, #ffeb77),

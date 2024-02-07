@@ -76,7 +76,7 @@ a {
 }
 #drinks {
   background: linear-gradient(to right bottom, #003cff63, #ffeb77),
-    url(images/drinks-hinterground.jpg) no-repeat center center/cover;
+    url(./Images/drinks-hinterground.jpg) no-repeat center center/cover;
 }
 #menu,
 #drinks {

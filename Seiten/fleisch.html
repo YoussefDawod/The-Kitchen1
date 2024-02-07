@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0 auto;
+        background: url(/images/fleich-gerichte.jpg) no-repeat center
+          center/cover;
+      }
+      h1 {
+        font-size: 3em;
+        color: white;
+        text-align: center;
+        border-radius:0 0 10px 10px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.648);
+        padding: 0.5em;
+      }
+      main {
+        width: 85%;
+        padding: 1em;
+        margin: 1em auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+        place-items: center;
+        gap: 1em;
+        place-self: center;
+        background-color: rgba(255, 163, 163, 0.671);
+        border-radius: 10px;
+      }
+      .food {
+        border: 1px solid rgba(255, 0, 0, 0.2);
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px rgba(255, 0, 0, 0.5);
+        height: 250px;
+        width: 250px;
+        display: flex;
+        align-items: flex-end;
+        background: url(/images/schnitzel.jpg) no-repeat center center/cover;
+      }
+      .food-info {
+        height: 125px;
+        width: 100%;
+        padding: 1em;
+        background-color: rgba(255, 0, 0, 0.5);
+        border-radius: 0 0 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .food-info h2,
+      .food-info p {
+        color: white;
+      }
+      .zurück {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgba(255, 0, 0, 0.5);
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+      }
+      .zurück:hover {
+        background-color: rgba(255, 0, 0, 0.8);
+      }
+      a {
+        width: 100px;
+        padding: 0.5em;
+        text-decoration: none;
+        background-color: rgba(255, 0, 0, 0.5);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+      }
+      a:hover {
+        background-color: rgba(255, 0, 0, 0.8);
+      }
+      .a-preis {
+        margin-right: 6.5em;
+        padding: 0.5em 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Fleisch Gerichte</h1>
+    <main>
+      <div class="food">
+        <div class="food-info">
+          <h2>Steak</h2>
+          <p>Ein saftiges Steak mit Beilage</p>
+          <div class="food-option">
+            <a class="a-preis" href="">Preis</a>
+            <a class="a-add" href="">Add</a>
+          </div>
+        </div>
+      </div>
+      <div class="food">
+        <div class="food-info">
+          <h2>Steak</h2>
+          <p>Ein saftiges Steak mit Beilage</p>
+          <div class="food-option">
+            <a class="a-preis" href="">Preis</a>
+            <a class="a-add" href="">Add</a>
+          </div>
+        </div>
+      </div>
+      <div class="food">
+        <div class="food-info">
+          <h2>Steak</h2>
+          <p>Ein saftiges Steak mit Beilage</p>
+          <div class="food-option">
+            <a class="a-preis" href="">Preis</a>
+            <a class="a-add" href="">Add</a>
+          </div>
+        </div>
+      </div>
+      <div class="food">
+        <div class="food-info">
+          <h2>Steak</h2>
+          <p>Ein saftiges Steak mit Beilage</p>
+          <div class="food-option">
+            <a class="a-preis" href="">Preis</a>
+            <a class="a-add" href="">Add</a>
+          </div>
+        </div>
+      </div>
+      <div class="food">
+        <div class="food-info">
+          <h2>Steak</h2>
+          <p>Ein saftiges Steak mit Beilage</p>
+          <div class="food-option">
+            <a class="a-preis" href="">Preis</a>
+            <a class="a-add" href="">Add</a>
+          </div>
+        </div>
+      </div>
+      <div class="food">
+        <div class="food-info">
+          <h2>Steak</h2>
+          <p>Ein saftiges Steak mit Beilage</p>
+          <div class="food-option">
+            <a class="a-preis" href="">Preis</a>
+            <a class="a-add" href="">Add</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div><a class="zurück" href="/Seiten/index.html">Zurück</a></div>
+  </body>
+</html>

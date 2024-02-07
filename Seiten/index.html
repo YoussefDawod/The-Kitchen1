@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="/Styling/style.css" />
+    <link rel="stylesheet" href="/Styling/Mobile-Ansicht.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-bar">
+          <a href="#menu">Speisen</a>
+          <a href="#drinks">Getränke</a>
+          <a href="#reservation">Reservierung</a>
+          <a href="#about">Über Uns</a>
+          <a href="#contact">Kontakt</a>
+        </div>
+        <div>
+          <img
+            class="logo-nav"
+            src="/images/restaurant-logo.png"
+            alt="logo"
+            width="500px"
+          />
+        </div>
+      </nav>
+      <h1>Willkommen im Restaurant The KITCHEN</h1>
+      <p class="p-header">
+        Genießen Sie bei uns köstliche Gerichte in gemütlicher Atmosphäre.
+      </p>
+    </header>
+    <main>
+      <section id="about">
+        <p class="p-about">
+          Das Restaurant <span class="kitchen">Kitchen</span> ist ein
+          familiengeführtes Restaurant, das sich auf mediterrane Küche
+          spezialisiert hat. Wir legen großen Wert auf frische Zutaten und eine
+          gemütliche Atmosphäre. Bei uns können Sie in Ruhe essen und den Alltag
+          hinter sich lassen.
+          <span class="abholen"
+            >Auch bei Uns können Sie Online oder Telefonisch bestellen und
+            selbst abholen.</span
+          >
+        </p>
+      </section>
+
+      <section id="menu">
+        <div class="info-speisen">
+          <h2>Unsere Speisen</h2>
+          <p>
+            Hier finden Sie eine Auswahl unserer Speisen, die Ihnen immer die
+            besten und frischesten Zutaten bietet.
+          </p>
+        </div>
+        <div class="speise-sorten">
+          <a class="a-sorte fleisch" href="/Seiten/fleisch.html">
+            Fleisch Gerichte
+          </a>
+          <a class="a-sorte burger" href=""> Burger </a>
+          <a class="a-sorte pasta" href=""> Pasta </a>
+          <a class="a-sorte pizza" href=""> Pizza </a>
+          <a class="a-sorte beilagen" href=""> Beilagen </a>
+          <a class="a-sorte desserts" href=""> Dessert </a>
+        </div>
+      </section>
+
+      <section id="drinks">
+        <div class="info-drinks">
+          <h2>Unsere Getränke</h2>
+          <p>
+            Neben unseren Speisen bieten wir auch eine Auswahl an Getränken an.
+            Bei uns finden Sie das passende Getränk zu Ihrem Essen.
+          </p>
+        </div>
+        <div class="drinks-sorten">
+          <a class="a-sorte wasser" href=""> Wasser </a>
+          <a class="a-sorte hotdrinks" href=""> Heiße Getränke </a>
+          <a class="a-sorte softdrinks" href=""> Soft Drinks </a>
+          <a class="a-sorte bier" href=""> Bier </a>
+          <a class="a-sorte cocktails" href=""> Cocktails </a>
+          <a class="a-sorte virgin-cocktails" href=""> Virgin Cocktails </a>
+        </div>
+      </section>
+
+      <section id="reservation">
+         <div class="reservation">
+          <h2>Reservierung</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+  
+            <label for="date">Datum:</label>
+            <input type="date" id="date" name="date" required />
+  
+            <label for="time">Uhrzeit:</label>
+            <input type="time" id="time" name="time" required />
+  
+            <button type="submit">Reservieren</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact">
+          <h2>Kontakt</h2>
+        <p class="p-k-g-s-s">
+          Bei Fragen oder Anregungen können Sie uns gerne kontaktieren:
+        </p>
+        <ul>
+          <li>Telefon: 123456789</li>
+          <li>E-Mail: info@restaurantxyz.com</li>
+          <li>Adresse: Musterstraße 123, 12345 Musterstadt</li>
+        </ul>
+        </div>
+        <footer>
+          <div>
+            <a href="#startseite">
+              <img
+                link="#home"
+                src="/images/restaurant-logo.png"
+                alt="logo"
+                class="logo"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+          <h5>&copy; 2024 Restaurant Kitchen. Alle Rechte vorbehalten.</h5>
+        </footer>
+      </section>
+    </main>
+    
+  </body>
+</html>

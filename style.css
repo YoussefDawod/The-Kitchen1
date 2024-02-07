@@ -11,7 +11,7 @@ header {
       rgba(255, 255, 130, 0.5),
       rgba(249, 33, 33, 0.462)
     ),
-    url(images/header-background-2.jpg) no-repeat center center/cover;
+    url(./Images/header-background-2.jpg) no-repeat center center/cover;
   display: grid;
   height: 100vh;
   color: #fff;
@@ -50,7 +50,7 @@ a {
   padding: 5px;
 }
 #about {
-  background: url("Images/header-background.avif") no-repeat center center/cover;
+  background: url("./Images/header-background.avif") no-repeat center center/cover;
   height: 100vh;
   text-align: center;
   display: flex;
@@ -72,7 +72,7 @@ a {
 }
 #menu {
   background: linear-gradient(to right bottom, #ff000033, #ff7777),
-    url(Images/menu-hintergrund.png) no-repeat center center/cover;
+    url(./Images/menu-hintergrund.png) no-repeat center center/cover;
 }
 #drinks {
   background: linear-gradient(to right bottom, #003cff63, #ffeb77),
@@ -178,7 +178,7 @@ section {
 }
 #reservation{
   background: linear-gradient(to right bottom, #00ff2a38, #77f6ffa2),
-    url(images/Reservirung.avif) no-repeat center center/cover;
+    url(./Images/Reservirung.avif) no-repeat center center/cover;
     margin: 0 auto;
 }
 #contact{
